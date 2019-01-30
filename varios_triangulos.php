@@ -1,10 +1,15 @@
 <?php
 
-//Crie um programa que exiba no Console um triângulo de *
+//Crie um programa que exiba no Console vários triângulos de *
 
-	for ($n=1; $n <= mt_rand(5, 100); $n++) {
 
-		echo "Triangulo $n:".PHP_EOL;
+	$x = mt_rand(3, 25);
+
+		echo "Total de triangulos: $x".PHP_EOL;
+
+	for ($n=1; $n <= $x ; $n++) {
+
+		echo "$n".PHP_EOL;
 
 		for ($i=1; $i <=5 ; $i++) { 
 
